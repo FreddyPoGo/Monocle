@@ -1,0 +1,41 @@
+[2017-10-16 00:22:41][    INFO][root] -------------------------------------
+[2017-10-16 00:22:41][    INFO][root] Starting up!
+[2017-10-16 00:22:46][ WARNING][worker-42] cmn37mdo28ym received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:46][ WARNING][worker-3] 3x36gehtl2gq received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:47][ WARNING][worker-2] b9cmarhs7pxp received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:47][ WARNING][worker-7] mzpt82t6i83q received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:47][ WARNING][worker-4] rh0paq1hrneq received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:48][ WARNING][worker-6] 41x21r7zzj06 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:48][ WARNING][worker-5] pipvi1bfghat received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:48][ WARNING][worker-14] 3vb0ynmlauj3 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:49][ WARNING][worker-11] 2rdyk8vs86hs received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:49][ WARNING][worker-15] oruu13jmhwf9 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:49][ WARNING][worker-9] 47in7kcjje58 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:49][ WARNING][worker-8] n3qbjl5aumxe received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:50][ WARNING][worker-10] jlom7asmzywo received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:51][ WARNING][worker-24] km82k1kwibxk received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:51][ WARNING][worker-16] rhb62uujbf3q received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:51][ WARNING][worker-17] boaf4tgboggf received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:52][ WARNING][worker-18] 3a80j6eod1ow received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:52][ WARNING][worker-34] b4ym891m9nri received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:52][ WARNING][worker-26] a27tgd8v1iwu received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:52][ WARNING][worker-12] 95wk69ruq66t received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:53][ WARNING][worker-46] l8l7q1hfrjih received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:53][ WARNING][worker-1] rjmicp2u56h2 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:53][ WARNING][worker-22] 44olp5xklzx2 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:54][ WARNING][worker-28] gmzdryr7jnbw received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:54][ WARNING][worker-23] ai0saogoykzi received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:54][ WARNING][worker-27] 8xzfzgyv922h received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:54][ WARNING][worker-31] 7ll8pmjaiuvt received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:55][ WARNING][worker-13] hme41bf20tlp received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:56][ WARNING][worker-37] yb3g9h0klbrb received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:56][ WARNING][worker-21] adc9vwtc9zq2 received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:56][ WARNING][worker-20] g1p47e263xvr received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:57][ WARNING][worker-25] qm0wkrxeww4v received code 3 and is likely banned. Removing until next run.
+[2017-10-16 00:22:57][   ERROR][cleanup] A wild RuntimeError appeared during exit!
+Traceback (most recent call last):
+  File "scan.py", line 146, in cleanup
+    LOOP.run_until_complete(wait_for(pending, 40))
+  File "C:\Users\slickr74\Desktop\WinPython-64bit-3.6.1.0Qt5\python-3.6.1.amd64\lib\asyncio\base_events.py", line 464, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
